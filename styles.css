@@ -96,3 +96,59 @@
 .textgreen{
     color: #469165;
 }
+.feature-section{
+    padding: 180px 20px 100px 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.section-header{
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+}
+.section-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0b1c33;
+    margin-bottom: 16px;
+}
+.section-header p {
+    font-size: 16px;
+    color: #666;
+    line-height: 2;
+}
+.features-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.feature-card{
+    background-color: white;
+    padding: 40px 24px;
+    border-radius: 12px;
+    border: 1px solid #eaeaea;
+}
+.icon-wrapper{
+    width: 64px;
+    height: 64px;
+    background-color: #ff5357;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 24px auto;
+}
+.icon-wrapper img{
+    width: 30px;
+    height: 30px;
+}
+.feature-card h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.feature-card p{
+    font-size: 14px;
+    line-height: 2;
+}
